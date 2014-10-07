@@ -2,7 +2,11 @@
 layout: post
 title:  "Being an Apprentice Developer"
 date:   2014-07-14 13:11:40
-categories: programming update
+categories: programming
+image:
+  teaser: apprentice.jpg
+  credit: fUnKyToEs
+  creditLink: http://funkytoes.deviantart.com/
 ---
 So, I used to say that I was an apprentice developer, but I'm really more of
 an apprentice human being at this point. I'm still in college, just barely

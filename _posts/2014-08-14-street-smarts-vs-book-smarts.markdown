@@ -2,7 +2,9 @@
 layout: post
 title:  "Street Smarts vs. Book Smarts"
 date:   2014-08-14 13:11:40
-categories: programming update
+categories: programming
+image:
+  teaser: books.jpg
 ---
 Ever since I started becoming a part of the software development community in
 Austin, I've heard an argument on street smarts vs. book smarts when it comes

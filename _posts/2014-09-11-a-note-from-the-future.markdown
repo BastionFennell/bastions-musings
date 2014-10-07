@@ -2,7 +2,9 @@
 layout: post
 title:  "A Note From The Future"
 date:   2014-09-11 13:11:40
-categories: other update
+categories: other
+image:
+  teaser: bertrand.jpg
 ---
 I decided to take a moment and write out a letter that I hope to craft if I
 manage to live until I'm 95. It's based loosely on the prologue to Bertrand
