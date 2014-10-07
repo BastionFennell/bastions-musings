@@ -1,11 +1,13 @@
 # Site wide configuration
 
-title:
+title: Bastion's Musings
 description:
+  A collection of posts on things I find interesting,
+  from programming to dancing.
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale:
-url:
+url: /bastions-musings
 
 # Jekyll configuration
 
