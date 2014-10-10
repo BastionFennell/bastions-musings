@@ -31,4 +31,4 @@ task :publish => [:generate] do
   end
 end
 
-task :default => :publisho
+task :default => :publish
