@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">Recent Posts in {{ page.category }}</h1>
+  <div class="tiles">
+    {% for post in site.categories[page.category] %}
+      {% include post-grid.html %}
+    {% endfor %}
+  </div><!-- /.tiles -->
+</div>

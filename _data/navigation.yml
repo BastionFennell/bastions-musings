@@ -1,0 +1,11 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+  excerpt: "A bit about me"
+  image: black-mage.jpg
+
+- title: Github
+  url: https://github.com/BastionFennell
+  excerpt: My Github account
+  image: github.png
