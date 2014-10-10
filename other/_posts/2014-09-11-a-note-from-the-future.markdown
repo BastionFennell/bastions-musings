@@ -2,7 +2,6 @@
 layout: post
 title:  "A Note From The Future"
 date:   2014-09-11 13:11:40
-categories: other
 image:
   teaser: bertrand.jpg
 ---

@@ -2,7 +2,6 @@
 layout: post
 title:  "Street Smarts vs. Book Smarts"
 date:   2014-08-14 13:11:40
-categories: programming
 image:
   teaser: books.jpg
 ---

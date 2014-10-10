@@ -69,6 +69,8 @@ module Jekyll
       @dir   = category_dir
       @name  = name
 
+      p category_dir
+
       self.process(name)
 
       if File.exist?(template_path)

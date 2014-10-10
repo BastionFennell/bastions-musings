@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<h1 class="category">{{ page.title }}</h1>
-<ul class="posts">
-{% for post in site.categories[page.category] %}
-    <div>{{ post.date | date_to_html_string }}</div>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <div class="categories">Filed under {{ post.categories | category_links }}</div>
-{% endfor %}
-</ul>
+<div class="home">
+  <h1 class="page-heading">Recent Posts in {{ page.category }}</h1>
+  <div class="tiles">
+    {% for post in site.categories[page.category] %}
+      {% include post-grid.html %}
+    {% endfor %}
+  </div><!-- /.tiles -->
+</div>

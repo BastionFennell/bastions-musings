@@ -2,7 +2,6 @@
 layout: post
 title:  "Being an Apprentice Developer"
 date:   2014-07-14 13:11:40
-categories: programming
 image:
   teaser: apprentice.jpg
   credit: fUnKyToEs
