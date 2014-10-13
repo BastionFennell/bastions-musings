@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fifth Weeke, Viennese Waltz"
+title:  "Fifth Week, Viennese Waltz"
 date:   2014-10-12 16:12:40
 ---
 Next weekend, the Texas Ballroom club is hosting The Great Waltz, which is
