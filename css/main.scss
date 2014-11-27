@@ -29,3 +29,10 @@
 @import "animations";
 @import "layout";
 @import "pygments";
+
+.tile {
+  img {
+    height: 425px;
+    overflow-y: hidden;
+  }
+}
