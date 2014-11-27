@@ -1,42 +1,589 @@
----
-limit: 25
----
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-{% if site.url %}
-    {% assign base = site.url %}
-{% elsif site.github.url %}
-    {% assign base = site.github.url %}
-{% endif %}
-    <title>{{ site.title }}</title>
-    <generator uri="https://github.com/jekyll/jekyll">Jekyll v{{ jekyll.version }}</generator>
-		<icon>{{ site.url }}/apple-touch-icon-precomposed.png</icon>
-    <subtitle>{{ site.description }}</subtitle>
-    <link href="{{ base }}{{ page.url }}" rel="self"/>
-    <link href="{{ base }}/" rel="alternate" type="text/html"/>
-    <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>{{ base }}/</id>
+
+    
+
+    <title>Bastion's Musings</title>
+    <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.5.2</generator>
+		<icon>/bastions-musings/apple-touch-icon-precomposed.png</icon>
+    <subtitle>A collection of posts on things I find interesting, from programming to dancing.</subtitle>
+    <link href="/bastions-musings/atom.xml" rel="self"/>
+    <link href="/bastions-musings/" rel="alternate" type="text/html"/>
+    <updated>2014-11-26T22:47:31-06:00</updated>
+    <id>/bastions-musings/</id>
     <author>
-			<name>{{ site.owner.name | xml_escape }}</name>
-			<uri>{{ site.url }}/</uri>
-			{% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
+			<name></name>
+			<uri>/bastions-musings/</uri>
+			
 		</author>
 
-    {% for post in site.posts limit: page.limit %}
+    
     <entry>
-        <title>{{ post.title | xml_escape }}</title>
-        <link href="{{ base }}{{ post.url }}"/>
-        <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>{{ base }}{{ post.id }}</id>
+        <title>Depression and Me</title>
+        <link href="/bastions-musings/other/depression-and-me/"/>
+        <updated>2014-11-26T07:11:40-06:00</updated>
+        <id>/bastions-musings/other/depression-and-me</id>
         <author>
-					<name>{{ site.owner.name | xml_escape }}</name>
-					<uri>{{ site.url }}/</uri>
-					{% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
+					<name></name>
+					<uri>/bastions-musings/</uri>
+					
 				</author>
         <content type="html">
-        	{% if post.image.feature %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image.feature }}&quot;&gt;&lt;br/&gt;{% endif %}
-        	{{ post.content | xml_escape }}
+        	
+        	&lt;p&gt;&lt;strong&gt;Forward&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This blog post is really hard for me to write, but I feel like it’s a post
+that needs to be written. I’ve had a really stressful couple of months, and
+it’s brought me to the lowest low I’ve ever been at. The kind of low where
+your support network kind of falls apart and you have nowhere to go. However,
+I’m on the other side of it now, and I’ve started taking medicine for it.&lt;/p&gt;
+
+&lt;p&gt;I wanted to put some of my thoughts and experiences from the past month down in
+one place. It was really hard for me to do, and it exposes some things about
+me that I’m very uncomfortable exposing, but it’s something I needed to do. I
+don’t want to ever feel like that again, and I don’t want anyone else to feel
+like that. Not everyone goes through depression the same way, but here’s my
+struggle. Maybe it will help others understand and help.&lt;/p&gt;
+
+&lt;p&gt;Note: This was forged from pure emotion. It will ramble some and move
+tangentially, but I won’t change it. I won’t go back and edit it. I want you
+to get the unsanitized version of this so you can get a glimpse into my mind
+rather than just what I want you to see.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;A Brief History of Me&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To start off, I’ve never exactly been the happiest
+of people. I used to prefer to sit back and make sarcastic jokes about things
+rather than participate in them. The two hardest parts of my day are trying to
+conjure up a reason to get out of bed in the morning, and coming home to an
+empty apartment in the evenings. It’s a tough place to be, but I didn’t think
+there was anything I could do about it really.&lt;/p&gt;
+
+&lt;p&gt;A few months ago, I decided that I was tired of living like this. It wasn’t
+fulfilling, it didn’t feel good, and I knew there had to be a better way to do
+things. It started gradually, I took up a couple new hobbies (namely dancing,
+if you haven’t browsed the rest of my blog) and reconnected with a couple of
+old friends. It was an uphill battle, it really was. I thought coming up with
+a reason to wake up was hard, coming up with a reason to go out and be with
+people was even harder. Still, I pushed through it and tried to meet new
+people and do new things.&lt;/p&gt;
+
+&lt;p&gt;Recently though, about a month ago, things in my life started going terribly
+wrong. My grades were bad, I wasn’t making rent, my car started to smoke, one
+of my closer friends left me, family drama escalated to ridiculous levels, the
+whole nine yards… It put me in a really dark place emotionally, really dark.
+I was skipping classes, skipping work, and it took everything I had to not
+skip dancing as well. Everything I did stopped feeling enjoyable. It’s like
+eating your favorite ice cream, but it tastes like ash in your mouth. You know
+you should enjoy it, but for some reason, you just can’t. The harder you try
+to enjoy it, the worse it is.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My Darkest Moment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, a week ago, I gave up. I just gave up, on myself, on my friends, on
+my life, on everything. It was triggered when I woke up at 5:30 in the
+morning. I’m not used to waking up early, I’m used to waking up late, so I
+thought nothing of it. I just tried to go back to sleep, but I couldn’t.
+Instead, I ended up spending the next three hours rolling around in my bed,
+thinking about how terrible everything is and how there’s no way to fix it,
+switching rapidly between crying hopelessly and trying to not care about
+anything.&lt;/p&gt;
+
+&lt;p&gt;For the first time in my life, I contemplated killing myself… It’s not
+something I would ever do, trust me. Please don’t come crashing through my
+door with suicide prevention or anything. I just sat and seriously thought
+about it. About the people it would affect, about the people it wouldn’t. I
+asked myself how long it would take for various people in my life to find out,
+what they might miss about me, and what people it would affect the most. I
+don’t even know why I was dwelling on it, it’s like a thought that just comes
+into your mind and won’t leave. It’s like when you can’t stop thinking about
+how you embarrassed yourself, even from years ago. It just pops in and stays
+for a while.&lt;/p&gt;
+
+&lt;p&gt;After that morning, I had given up on being happy. It felt like it had been so
+long since I’d truly felt happy that I wouldn’t feel it again. At the same
+time, the suicidal thoughts terrified me in a way that I can’t really explain.
+I decided to talk to my doctor about it. I was tired of life, I was tired of
+my problems, I was tired of my situation, but mostly I was tired of feeling
+shitty all the time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Diagnosis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My doctor talked to me about my family history, my own feelings and emotions
+now and in my past, and a few other things. She diagnosed me with something
+called &lt;em&gt;double depression&lt;/em&gt;. Double depression is apparently a toxic mixture of
+two types of depression, &lt;em&gt;chronic depression&lt;/em&gt; and &lt;em&gt;major depression&lt;/em&gt;. Chronic
+depression is when you’re depressed for a long time, usually years. WebMD
+refers to it as a “veil of sadness”. Major depression is the depression most
+people deal with, it’s what happens when things go wrong in your life and you
+tumble into a down swing. Major depression happens to a lot of people, it’s
+generally worse than chronic depression, but it usually only lasts for a month
+or so. My doctor told me I’ve been suffering from chronic depression for a
+while, and with the recent stressors in my life I was also going through a
+period of major depression. Double depression. What can I say, I don’t do
+anything half way.&lt;/p&gt;
+
+&lt;p&gt;She prescribed me &lt;em&gt;wellbutrin&lt;/em&gt;. Wellbutrin is a common antidepressant that
+only affects dopamine and epinephrin, rather than seratonin like other common
+antidepressants. Wellbutrin is liked for it’s relative lack of side effects.
+The only serious one is that it can increase risk for epileptic seizures.
+Considering I’ve never had a seizure, that shouldn’t be a problem for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Upswing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Immediately after I started taking the Wellbutrin, I felt better. For the
+first time in a long time, I felt motivated. I actually wanted to do things,
+specific things, rather than just go with whatever happened. I was able to get
+up in the mornings, I was more productive at work, and I was able to pay
+better attention in class. It was amazing, I didn’t realize that I could
+actually feel this way, that this might be how I’m supposed to feel. It was
+like a heavy fog had been lifted, and I’m really thankful for that. I’ve got
+back my ambition, my drive, and my hope.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To end this long rant/diary entry/word vomit, I wanted to say that the best
+thing I’ve done for myself in a long time is go talk to my doctor and get on
+antidepressants. It’s changed my life in a single week. It’s the reason I have
+the courage to write this blog post. Depression is a very personal thing, and
+when we’re going through it, it can be hard to talk to anyone else about it.
+Even your doctor. I know I felt that way, I didn’t want to talk to my doctor
+about it at all. Now I wish I had talked to her sooner. This blog post was
+really hard to write, and it opens up some wounds and dark places, but it’s
+something I needed to get of my chest. Maybe, just maybe, somewhere down the
+road, someone will read this and decide to go talk to their doctor and get the
+help they need. Maybe it will help other people understand me a bit better, or
+understand depression a bit better and push people they know to find help.&lt;/p&gt;
+
         </content>
     </entry>
-    {% endfor %}
+    
+    <entry>
+        <title>Fifth Week, Viennese Waltz</title>
+        <link href="/bastions-musings/dancing/fifth-week-viennese-waltz/"/>
+        <updated>2014-10-12T11:12:40-05:00</updated>
+        <id>/bastions-musings/dancing/fifth-week-viennese-waltz</id>
+        <author>
+					<name></name>
+					<uri>/bastions-musings/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Next weekend, the Texas Ballroom club is hosting The Great Waltz, which is
+apparently one of their biggest events of the year. They’re going to have a
+live orchestra that will be playing a lot of viennese waltz. So, to prepare, I
+went to a viennese waltz workshop on Saturday to prepare. Turns out, I’m
+pretty terrible at it. It’s a really fast waltz, and I wasn’t prepared for the
+speed at all. It’s so fast, it only has seven moves total in the gold
+syllabus. We learned all of them, but I was pretty terrible at most of them…
+I’ll practice this week, and hopefully I’ll be ready in time.&lt;/p&gt;
+
+&lt;p&gt;More interesting news, I think I’m going to try competing in November. I’m not
+sure what I’m going to compete in yet, but I’m planning on going to Dances
+with Owls at Rice University. Right now, I’m trying to decide if I want to
+compete in newcomer or bronze, and what dances I want to do. My partner is
+more familiar with smooth and rhythm, but I’m more familiar with standard and
+latin. We’ll talk about it, and I’ll give an update next week. Until then!&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Fourth Week, Foundations and Fun</title>
+        <link href="/bastions-musings/dancing/fourth-week-foundations-and-fun/"/>
+        <updated>2014-10-03T13:11:40-05:00</updated>
+        <id>/bastions-musings/dancing/fourth-week-foundations-and-fun</id>
+        <author>
+					<name></name>
+					<uri>/bastions-musings/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;This week, we ended up doing a lot of review. The reviews were helpful for
+waltz and tango, but the other dances I feel like I already understand well
+enough that I don’t need to go over the basics too much. It was awesome in
+west coast swing though, because we finally went over connection. Some of the
+new follows are feeling better to dance with now, which is exciting. I’m also
+figuring out who’s better at west coast so I can use my full repertoire of
+patterns and learn new ones when I dance with them rather than just going over
+the basics. Speaking of west coast, I went to my first practice outside of
+ballroom lessons this week. I met up with a friend of mine, Alexander, who was
+one of the main forces behind getting me into ballroom. We met up and worked
+on some patterns I wanted to learn, namely the basics for nightclub two step
+and folds in WCS. I also went to a WCS practice session with some of the TA’s
+for a social dance class here on campus, which was awesome. I was nervous the
+entire time, but I ended up dancing with one of the TA’s. She said that
+everything felt solid and awesome, gave me a few pointers on my whip and sugar
+tuck, then she told me to work on rolling through. Other than that, she said
+everything was solid and I should try to learn new patterns. So, my next goal
+is to add more and more patterns to my WCS and figure out the correct way to
+roll through. Here’s to another successful week!&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Third Week, Terrifying Tango</title>
+        <link href="/bastions-musings/dancing/third-week-terrifying-tango/"/>
+        <updated>2014-09-26T13:11:40-05:00</updated>
+        <id>/bastions-musings/dancing/third-week-terrifying-tango</id>
+        <author>
+					<name></name>
+					<uri>/bastions-musings/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;So, I didn’t get a chance to go to waltz or tango the first two weeks, but I
+decided to try and jump in on it before it was too late. It was… intense…
+Waltz was nice, but I didn’t figure out how to do the basic moves until the
+very end of the lesson, and even then I was kind of shaky. Tango was even
+worse. Everyone else was focusing on making it look right, while I was
+focusing of getting the footwork down. Still, the instructor focused on the
+basics and getting them right, so it was bearable. I should find a partner to
+practice tango and waltz with so I can get up to speed. Aside from those two
+classes, we were making sure we had our basics down and adding a few of the
+more iconic moves for each of the dances. Things like the fan in rumba and the
+spinning left side pass in west coast swing. It was fun, hopefully I’ll figure
+out tango and waltz soon.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Second Week, Basics</title>
+        <link href="/bastions-musings/dancing/second-week-basics/"/>
+        <updated>2014-09-19T13:11:40-05:00</updated>
+        <id>/bastions-musings/dancing/second-week-basics</id>
+        <author>
+					<name></name>
+					<uri>/bastions-musings/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;I was worried that things would slow down too much after free week, but it was
+actually very helpful. This week we focused on doing the basics and doing them
+right. We went over the things we learned during free week and learned the
+correct way to do them. It was nice, and I feel like I have a much more solid
+foundation and a better idea on the stylistic difference between the different
+dances. I know a decent amount of west coast swing, so I felt like that lesson
+in particular was slow, but I know that there are technique things that are
+important that I should focus on. I’ll probably use this as an opportunity to
+work on leading, leg line, rolling through, and making the dance look right.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Free Week</title>
+        <link href="/bastions-musings/dancing/free-week/"/>
+        <updated>2014-09-12T13:11:40-05:00</updated>
+        <id>/bastions-musings/dancing/free-week</id>
+        <author>
+					<name></name>
+					<uri>/bastions-musings/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;This will be a short post. I went to Texas Ballroom’s free week, and it was
+pretty crazy. The room was literally full of people, all of us trying to
+figure out how to dance. The lessons were all pretty rushed because the
+instructors were trying to get us to something that felt like dancing as
+quickly as possible. I’ve been assured several times that there will be less
+people next week, we’ll see what happens. I almost went to my first social
+dance, but ended up deciding against it at the end. I feel like I should know more
+than the basic before I dance socially.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>A Note From The Future</title>
+        <link href="/bastions-musings/other/a-note-from-the-future/"/>
+        <updated>2014-09-11T08:11:40-05:00</updated>
+        <id>/bastions-musings/other/a-note-from-the-future</id>
+        <author>
+					<name></name>
+					<uri>/bastions-musings/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;I decided to take a moment and write out a letter that I hope to craft if I
+manage to live until I’m 95. It’s based loosely on the prologue to Bertrand
+Russel’s autobiography, which can be found
+&lt;a href=&quot;http://users.drew.edu/jlenz/br-prolog.html&quot;&gt;here&lt;/a&gt;. I wrote it to give myself
+a clearer outlook on some of the things I’m going through right now, and as a
+way to figure out the kind of person I would like to be as I grow older.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-i-have-lived-for&quot;&gt;What I Have Lived For&lt;/h4&gt;
+
+&lt;p&gt;Coming on my 95th year, I’d like to take a chance and reflect back on my life.
+95 is longer than I ever thought I would live, but I’m glad to still be
+cognizant enough to be a part of my great grandchildren’s childhoods and write
+short letters such as this. When I think back, I can see that my life has
+mostly been guided by two things, making others happy and raising my family.&lt;/p&gt;
+
+&lt;p&gt;It’s really easy to live your life to please only yourself, just doing what
+you want when you want to. It’s much harder to try and make others in your
+life happy. When I was young and foolish, I tried to make everyone happy, even
+complete strangers… With the wisdom of age, I realize now that you can never
+make everyone happy, no matter how hard you try. Down that road lies only
+depression and regret. Instead of making others happy, I found people that
+have truly enriched my life and I’ve done my best to enrich theirs as well.
+It’s not about an equal trade, it’s about doing good because it’s the right
+thing to do. When you find others who have that same value, it’s easy to grow
+together and become the best version of yourself while helping them do the
+same.&lt;/p&gt;
+
+&lt;p&gt;Few people in this world are worth sacrificing your own well being for. When
+it came down to it, I decided to dedicate myself to my family and close
+friends. It was a hard decision to try and have kids and raise a family, but
+I’m glad that’s the decision we made. At first, I was hesitant. I had spent so
+long trying to avoid the drama of my parents household, I didn’t want to bring
+about exactly what I was trying to avoid in my own household. It’s different,
+though, being a parent rather than a sibling. There is something magical about
+bringing another human being into the world and passing on all of the
+knowledge you yourself have learned over the years. I couldn’t be more proud
+of my children, my grand children, and the great things they’ve gone on to
+accomplish. The opportunities that lay before the generations that came after
+me are mind blowing, and I’m glad that we were able to tear down the barriers
+that lay before them and let them become such amazing people.&lt;/p&gt;
+
+&lt;p&gt;There are many parts of my life that I didn’t understand and that hurt me as I
+went through them. Looking back, I realize now that they were simply
+challenges for me to overcome, things to help strengthen me into the father I
+needed to be and the grandfather I wanted to be. I’ve lived a full life now,
+and I can think fondly of it without any regrets.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Street Smarts vs. Book Smarts</title>
+        <link href="/bastions-musings/programming/street-smarts-vs-book-smarts/"/>
+        <updated>2014-08-14T08:11:40-05:00</updated>
+        <id>/bastions-musings/programming/street-smarts-vs-book-smarts</id>
+        <author>
+					<name></name>
+					<uri>/bastions-musings/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Ever since I started becoming a part of the software development community in
+Austin, I’ve heard an argument on street smarts vs. book smarts when it comes
+to programming. I’ve been a part of discussions in cafes that went on for
+hours about which is more important and which you should really try to focus
+on when you’re trying to build products or get a new job. Now that I’m going
+into my senior year at the University of Texas here in Austin, this discussion
+has actually become very important to me, and a source of inner turmoil as
+well. I thought I would take this blog post as a chance to explore the topic
+some.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Street smarts? Book smarts? What are they even?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So, just to make sure we’re on the same page, let’s define what I mean when I
+talk about “street smarts” and “book smarts”. Essentially, street smarts
+translates to experience while book smarts translates to knowledge. Of course,
+the split isn’t that simple and clean, but that’s an easy way to start looking
+at it.&lt;/p&gt;
+
+&lt;p&gt;Street smarts is what you learn “in the streets”, or on your job and side
+projects. It’s the skill you get when you wrangle code and work with the
+frameworks and libraries you use every day. For us at the Frontside, it would
+equate to experience working with our favorite technologies like Ember.js,
+Karma, Mocha, etc. Book smarts are the more academic side of things. They’re
+what you learn at college, from doing research online, or reading books. It’s
+a more pragmatic toolset that gives you an idea what your code does behind the
+scenes and gives you a collection of generic solutions to common coding
+problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So, which is better?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, the answer to this question is really that they’re both
+important. You can get by without one or the other for a while, but eventually
+almost every problem needs both to come up with a good solution. If you’re
+relying solely on street smarts, if you haven’t encountered the problem or one
+like it, you’re gonna have a bad time. Alternatively, if you come at it with
+only book smarts, it’s going to be difficult to implement whatever solution
+you come up with. You need the context and skill that’s developed with
+actually getting your hands dirty and working with the code, but you also want
+the pragmatic higher level understanding that comes with researching and
+learning about what the code is actually doing.&lt;/p&gt;
+
+&lt;p&gt;While you need both, you don’t necessarily need them both equally. I’ve found
+that here at the Frontside, it’s mostly been a 90/10 split between street
+smarts and book smarts. 90% of the time, the solution is easier to see and
+easier to build when you have experience in the framework and with web
+development in general. However, 10% of the time, the knowledge from book
+smarts finds a better solution faster. Both are important, so you should make
+sure to work on getting experience and getting knowledge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;But how do I get more “smarts”?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Getting more street smarts and more book smarts is surprisingly easy. Street
+smarts you can get simply by doing your job and paying attention. If you
+really want to get more street smarts, you don’t have a job, or you want more
+experience in a different industry, then the solution is personal projects.
+They don’t have to be amazing applications, they just have to be something.
+Playing around with the tools you want to learn is the easiest way to learn
+how to use them.&lt;/p&gt;
+
+&lt;p&gt;Book smarts require a little bit more effort and motivation, generally. If you
+want to get more pragmatic knowledge, the solution is either going to school
+or reading. College isn’t the only place to take courses or learn, there are
+great online resources such as Code School and MIT’s opencourseware that offer
+free or cheap classes for you to learn more. Alternatively, you can spend more
+time reading. There are several great programming books available that can be
+as general the Foundations of Computer Science, by Alfred Aho and Jeffrey
+Ullman, or as specific as Artificial Intellegence: A Modern Approach, by
+Stuart Russell and Peter Norvig. If there’s something you want to learn,
+chances are there’s a book for it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Alright, but why is any of this important?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Book smarts and street smarts come into play all the time at work and in
+personal projects. For example, recently I was working in a code base that
+used the Ruby Sequel adapter for it’s back end. I have very little experience
+with the back end, I’m almost entirely a front end guy. We were building a
+query, and I knew what I wanted the query to do and look like, but I had no
+idea how to build that with the Sequel adapter. If I had more street smarts,
+more experience with Sequel, then it would’ve been a simple problem.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, book smarts can help you tackle larger problems. One of our
+current projects uses Backbone for the front end, but we wanted to have
+simpler and more versatile routing. One of our developers went and connected
+Router.js to our Backbone project to give us the ability to do amazing things
+with the router. It’s not something they’ve done before nor is it something
+they’ll probably have to do ever again. However, they had enough knowledge of
+both Backbone and Router.js to connect them and make them work together,
+building a beautiful Frankenstein monster.&lt;/p&gt;
+
+&lt;p&gt;Cultivating both street smarts and book smarts can lead to quicker, simpler
+solutions. It can also lead to doing pretty amazing things in your code bases.
+While the battle between which is better will rage on for who knows how long,
+the best thing you can do is just get better with both of them. Maybe, next
+time you have some free time, you should pick up that new functional
+programming book your friend’s been talking about and give it a read. What’s
+the worst that could happen?&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Being an Apprentice Developer</title>
+        <link href="/bastions-musings/programming/being-an-apprentice/"/>
+        <updated>2014-07-14T08:11:40-05:00</updated>
+        <id>/bastions-musings/programming/being-an-apprentice</id>
+        <author>
+					<name></name>
+					<uri>/bastions-musings/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;So, I used to say that I was an apprentice developer, but I’m really more of
+an apprentice human being at this point. I’m still in college, just barely
+getting a taste of the real world and the dangers lurking within it. While
+many people consider being an apprentice only a stepping stone or maybe
+something not to be proud of, I see it as one of the best opportunities of my
+life. Being an apprentice, you get unparalleled freedom and a chance to learn
+from the best. I wouldn’t trade my apprenticeship for the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Who am I anyways?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To tell you why I think being an apprentice is so awesome, let me tell you a
+bit about myself. Right now, I’m going to UT to get my bachelors in computer
+science. My original goal was to get into computer science research, and UT
+has given me the terrific opportunity of pursuing that goal and actually
+working with robots and trying to deploy them to the new computer science
+building. It’s great, and I love most of it, but as time goes on I find myself
+yearning more and more to move away from school and into the real world.&lt;/p&gt;
+
+&lt;p&gt;This yearning has been added to in no small part by the place that I work
+being so incredible. I’m currently an journeyman with The Frontside, I’ve been
+working with them for just over a year now. It was kind of a tough choice for
+me to apprentice under them to be honest. I met my boss, Charles, at a weekly
+meet up one night. Everyone at the meet up was talking and after a killer
+recommendation from a good friend of mine I had a time set up to come into the
+office and check out The Frontside. When I got there, there were only two
+employees in total, and all of us were in a small room in the corner of the
+office. It reminded me of a start up atmosphere to be honest, but I loved it.
+I loved the people I met, I loved the office, and I loved the work they were
+doing. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If it was so awesome, why was it tough?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, there was one catch, my starting pay was… Let’s just say not ideal. It
+was a hard blow when I saw the number, but I could understand it. I was an
+apprentice after all. Even if I understood it, I had friends that were already
+making 25-30 dollars an hour delivering coffee in big companies. I thought
+about it for a bit, and decided that it was stupid to think of the money too
+much. I had student loans to cover necessities, and parents to cover
+groceries, so I was good. I agreed to the pay because I loved everything else
+about the company, and I wanted to learn more than I wanted to make money. I
+think that was probably one of the best decisions of my life. Since then, I’ve
+leveled up as a developer, I’ve gotten a chance to see the company grow and
+even take part in it.&lt;/p&gt;
+
+&lt;p&gt;Looking back, I honestly think that everyone who wants to be an apprentice
+should start at a low pay. If you want money, go intern somewhere. If you want
+to learn something, take an apprenticeship and just focus on soaking up as
+much knowledge as you can from those around you. I’m especially lucky to be
+one of the few employees here, so I get to work hand in hand with some of the
+best programmers I know on a daily basis. As an apprentice, you need to
+monopolize everyone else’s time as much as you can. Ask them to show you
+things, force them to explain it until you truly understand it, even if it’s
+frustrating. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why being an apprentice is great&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sure you get to hang out and learn from masters, but is that it? No, of course
+not. I could hang out with terrific programmers in my free time if it was just
+that, being an apprentice is so much more. It’s a chance to make mistakes. In
+fact, it’s expected that you make mistakes, which is freeing in a way. When I
+came into the office, I’ll be honest, I’d only started working with Ruby a
+month previous and had no real experience with it. One of my first projects
+was mostly spent breaking things and then asking my boss how to fix them. I
+learned so much from that cycle, getting a chance to work with real code is
+truly priceless. Now, I’m getting a chance to learn javascript and Ember and
+making plenty of new mistakes that I have to learn how to fix, but I’ll be
+better for it in the end. my coworkers will be as well. Helping me forces them
+to make sure they understand the intricacies of the framework we’re using, so
+it’s a win-win most of the time.&lt;/p&gt;
+
+&lt;p&gt;That’s not the only win-win though. As an apprentice, you shouldn’t just be a
+nuisance, bugging everyone about things every few minutes. One of my
+coworkers, Brandon, likes to talk about different peoples “value proposition”,
+or what they could add to the company. As an apprentice, you have to add
+something to the company, not just take away. You should add life to the
+company, like an office cat with more potential. You should be able to make
+things more interesting, give people fresh eyes to look at old topics, and
+generally just be fun to have around. Your value proposition should be making
+the office an even more awesome space and helping everyone around you be more
+productive than they would be without you, even if it all just boils down to
+helping with rubber ducky programming.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A Final Note&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Confucius once said, “Choose a job you love, and you will never have to work a
+day in your life.” I believe these are words to live by. An apprenticeship
+gives you a chance to find what you love and move forward with it. The way the
+old guilds work, once you completed your apprenticeship, you became a
+journeyman. Journeymen had to find a way to survive off of their craft, they
+went from town to town for some amount of time trading work for food and
+lodging. While the idea of journeyman may be different now, apprentices
+haven’t changed. We’re still here, bumbling about as we learn, trying to
+breath new life into old companies.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
 </feed>
