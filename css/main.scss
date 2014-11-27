@@ -31,8 +31,10 @@
 @import "pygments";
 
 .tile {
-  img {
+  a {
     height: 425px;
     overflow-y: hidden;
+    display: table-cell;
+    vertical-align: middle;
   }
 }
