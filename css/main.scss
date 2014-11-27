@@ -31,10 +31,10 @@
 @import "pygments";
 
 .tile {
-  a {
+  a.post-teaser {
     height: 425px;
     overflow-y: hidden;
-    display: table-cell;
+    display: table-cell !important;
     vertical-align: middle;
   }
 }
